@@ -1,0 +1,25 @@
+# Rust
+backend/target/
+**/*.rs.bk
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Environment
+.env
+backend/.env
+frontend/.env
+
+# Recordings
+backend/recordings/*.cast
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store

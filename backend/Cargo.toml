@@ -1,0 +1,29 @@
+[package]
+name = "bastion-backend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4"
+actix-rt = "2"
+actix-ws = "0.3"
+actix-cors = "0.7"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sqlx = { version = "0.8", features = ["runtime-tokio", "postgres", "chrono", "uuid", "json", "migrate"] }
+jsonwebtoken = "9"
+bcrypt = "0.16"
+russh = "0.46"
+russh-keys = "0.46"
+tokio = { version = "1", features = ["full"] }
+dotenvy = "0.15"
+uuid = { version = "1", features = ["v4", "serde"] }
+chrono = { version = "0.4", features = ["serde"] }
+thiserror = "2"
+log = "0.4"
+env_logger = "0.11"
+aes-gcm = "0.10"
+base64 = "0.22"
+async-trait = "0.1"
+futures = "0.3"
+tokio-stream = "0.1"
